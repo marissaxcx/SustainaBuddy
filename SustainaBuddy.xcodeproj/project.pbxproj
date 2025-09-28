@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4A1B2C2C8F1A2B00123456 /* SustainaBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B2B2C8F1A2B00123456 /* SustainaBuddyApp.swift */; };
+		3D4A1B2E2C8F1A2B00123457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B2D2C8F1A2B00123457 /* ContentView.swift */; };
+		3D4A1B302C8F1A2B00123458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4A1B2F2C8F1A2B00123458 /* Assets.xcassets */; };
+		3D4A1B322C8F1A2B00123459 /* MarineTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B312C8F1A2B00123459 /* MarineTrackerView.swift */; };
+		3D4A1B342C8F1A2B0012345A /* MarineAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B332C8F1A2B0012345A /* MarineAnimal.swift */; };
+		3D4A1B362C8F1A2B0012345B /* AnimalProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B352C8F1A2B0012345B /* AnimalProfileView.swift */; };
+		3D4A1B382C8F1A2B0012345C /* SustainaBuddyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B372C8F1A2B0012345C /* SustainaBuddyView.swift */; };
+		3D4A1B3A2C8F1A2B0012345D /* SpeciesSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B392C8F1A2B0012345D /* SpeciesSelectorView.swift */; };
+		3D4A1B3C2C8F1A2B0012345E /* EcoFootprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B3B2C8F1A2B0012345E /* EcoFootprintView.swift */; };
+		3D4A1B3E2C8F1A2B0012345F /* EcoActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B3D2C8F1A2B0012345F /* EcoActivity.swift */; };
+		3D4A1B402C8F1A2B00123460 /* EcoDiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B3F2C8F1A2B00123460 /* EcoDiningView.swift */; };
+		3D4A1B422C8F1A2B00123461 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B412C8F1A2B00123461 /* Restaurant.swift */; };
+		3D4A1B442C8F1A2B00123462 /* ActivityLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B432C8F1A2B00123462 /* ActivityLogView.swift */; };
+		3D4A1B462C8F1A2B00123467 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B452C8F1A2B00123467 /* LocationManager.swift */; };
+		3D4A1B482C8F1A2B00123468 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B472C8F1A2B00123468 /* CreditsView.swift */; };
+		3D4A1B4A2C8F1A2B00123470 /* SocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B492C8F1A2B00123470 /* SocialView.swift */; };
+		3D4A1B4C2C8F1A2B00123471 /* SocialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B4B2C8F1A2B00123471 /* SocialViewModel.swift */; };
+		3D4A1B4E2C8F1A2B00123472 /* AddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B4D2C8F1A2B00123472 /* AddFriendView.swift */; };
+		3D4A1B502C8F1A2B00123473 /* ChallengeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B4F2C8F1A2B00123473 /* ChallengeDetailView.swift */; };
+		3D4A1B522C8F1A2B00123474 /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B512C8F1A2B00123474 /* AchievementView.swift */; };
+		3D4A1B542C8F1A2B00123475 /* AchievementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B532C8F1A2B00123475 /* AchievementViewModel.swift */; };
+		3D4A1B562C8F1A2B00123476 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B552C8F1A2B00123476 /* StatCard.swift */; };
+		3D4A1B582C8F1A2B00123477 /* FeedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B572C8F1A2B00123477 /* FeedingView.swift */; };
+		3D4A1B592C8F1A2B00123478 /* CustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B582C8F1A2B00123478 /* CustomizationView.swift */; };
+		3D4A1B5A2C8F1A2B00123479 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B5B2C8F1A2B00123479 /* NotificationManager.swift */; };
+		3D4A1B5C2C8F1A2B0012347A /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A1B5D2C8F1A2B0012347A /* NotificationSettingsView.swift */; };
+		A1B2C3D42C8F1A2B00123481 /* AppleAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D32C8F1A2B00123481 /* AppleAuthManager.swift */; };
+		A1B2C3D62C8F1A2B00123482 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D52C8F1A2B00123482 /* SignInView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D4A1B282C8F1A2B00123455 /* SustainaBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainaBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4A1B2B2C8F1A2B00123456 /* SustainaBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainaBuddyApp.swift; sourceTree = "<group>"; };
+		3D4A1B2D2C8F1A2B00123457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D4A1B2F2C8F1A2B00123458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D4A1B312C8F1A2B00123459 /* MarineTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarineTrackerView.swift; sourceTree = "<group>"; };
+		3D4A1B332C8F1A2B0012345A /* MarineAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarineAnimal.swift; sourceTree = "<group>"; };
+		3D4A1B352C8F1A2B0012345B /* AnimalProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalProfileView.swift; sourceTree = "<group>"; };
+		3D4A1B372C8F1A2B0012345C /* SustainaBuddyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainaBuddyView.swift; sourceTree = "<group>"; };
+		3D4A1B392C8F1A2B0012345D /* SpeciesSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesSelectorView.swift; sourceTree = "<group>"; };
+		3D4A1B3B2C8F1A2B0012345E /* EcoFootprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFootprintView.swift; sourceTree = "<group>"; };
+		3D4A1B3D2C8F1A2B0012345F /* EcoActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoActivity.swift; sourceTree = "<group>"; };
+		3D4A1B3F2C8F1A2B00123460 /* EcoDiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoDiningView.swift; sourceTree = "<group>"; };
+		3D4A1B412C8F1A2B00123461 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		3D4A1B432C8F1A2B00123462 /* ActivityLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogView.swift; sourceTree = "<group>"; };
+		3D4A1B452C8F1A2B00123463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4A1B452C8F1A2B00123467 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3D4A1B472C8F1A2B00123468 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		3D4A1B492C8F1A2B00123470 /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
+		3D4A1B4B2C8F1A2B00123471 /* SocialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewModel.swift; sourceTree = "<group>"; };
+		3D4A1B4D2C8F1A2B00123472 /* AddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendView.swift; sourceTree = "<group>"; };
+		3D4A1B4F2C8F1A2B00123473 /* ChallengeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailView.swift; sourceTree = "<group>"; };
+		3D4A1B512C8F1A2B00123474 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		3D4A1B532C8F1A2B00123475 /* AchievementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewModel.swift; sourceTree = "<group>"; };
+		3D4A1B552C8F1A2B00123476 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		3D4A1B572C8F1A2B00123477 /* FeedingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingView.swift; sourceTree = "<group>"; };
+		3D4A1B582C8F1A2B00123478 /* CustomizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationView.swift; sourceTree = "<group>"; };
+		3D4A1B5B2C8F1A2B00123479 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		3D4A1B5D2C8F1A2B0012347A /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		A1B2C3D32C8F1A2B00123481 /* AppleAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managers/AppleAuthManager.swift; sourceTree = "<group>"; };
+		A1B2C3D52C8F1A2B00123482 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Auth/SignInView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D4A1B252C8F1A2B00123454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D4A1B1F2C8F1A2B00123453 = {
+			isa = PBXGroup;
+			children = (
+				3D4A1B2A2C8F1A2B00123456 /* SustainaBuddy */,
+				3D4A1B292C8F1A2B00123455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D4A1B292C8F1A2B00123455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A1B282C8F1A2B00123455 /* SustainaBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D4A1B2A2C8F1A2B00123456 /* SustainaBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A1B2B2C8F1A2B00123456 /* SustainaBuddyApp.swift */,
+				3D4A1B2D2C8F1A2B00123457 /* ContentView.swift */,
+				3D4A1B462C8F1A2B00123464 /* Views */,
+				3D4A1B4A2C8F1A2B00123477 /* ViewModels */,
+				3D4A1B472C8F1A2B00123465 /* Models */,
+				3D4A1B5E2C8F1A2B0012347B /* Managers */,
+				3D4A1B482C8F1A2B00123469 /* Services */,
+				3D4A1B2F2C8F1A2B00123458 /* Assets.xcassets */,
+				3D4A1B452C8F1A2B00123463 /* Info.plist */,
+				A1B2C3D32C8F1A2B00123481 /* AppleAuthManager.swift */,
+				A1B2C3D52C8F1A2B00123482 /* SignInView.swift */,
+			);
+			path = SustainaBuddy;
+			sourceTree = "<group>";
+		};
+		3D4A1B462C8F1A2B00123464 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A1B312C8F1A2B00123459 /* MarineTrackerView.swift */,
+				3D4A1B352C8F1A2B0012345B /* AnimalProfileView.swift */,
+				3D4A1B372C8F1A2B0012345C /* SustainaBuddyView.swift */,
+				3D4A1B572C8F1A2B00123477 /* FeedingView.swift */,
+				3D4A1B392C8F1A2B0012345D /* SpeciesSelectorView.swift */,
+				3D4A1B3B2C8F1A2B0012345E /* EcoFootprintView.swift */,
+				3D4A1B3F2C8F1A2B00123460 /* EcoDiningView.swift */,
+				3D4A1B432C8F1A2B00123462 /* ActivityLogView.swift */,
+				3D4A1B472C8F1A2B00123468 /* CreditsView.swift */,
+				3D4A1B492C8F1A2B00123470 /* SocialView.swift */,
+				3D4A1B4D2C8F1A2B00123472 /* AddFriendView.swift */,
+				3D4A1B4F2C8F1A2B00123473 /* ChallengeDetailView.swift */,
+				3D4A1B512C8F1A2B00123474 /* AchievementView.swift */,
+				3D4A1B582C8F1A2B00123478 /* CustomizationView.swift */,
+				3D4A1B5D2C8F1A2B0012347A /* NotificationSettingsView.swift */,
+				3D4A1B4B2C8F1A2B00123478 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D4A1B4A2C8F1A2B00123477 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A1B4B2C8F1A2B00123471 /* SocialViewModel.swift */,
+				3D4A1B532C8F1A2B00123475 /* AchievementViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3D4A1B4B2C8F1A2B00123478 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A1B552C8F1A2B00123476 /* StatCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3D4A1B472C8F1A2B00123465 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A1B332C8F1A2B0012345A /* MarineAnimal.swift */,
+				3D4A1B3D2C8F1A2B0012345F /* EcoActivity.swift */,
+				3D4A1B412C8F1A2B00123461 /* Restaurant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D4A1B5E2C8F1A2B0012347B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A1B5B2C8F1A2B00123479 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3D4A1B482C8F1A2B00123469 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A1B452C8F1A2B00123467 /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D4A1B272C8F1A2B00123454 /* SustainaBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4A1B362C8F1A2B00123466 /* Build configuration list for PBXNativeTarget "SustainaBuddy" */;
+			buildPhases = (
+				3D4A1B242C8F1A2B00123453 /* Sources */,
+				3D4A1B252C8F1A2B00123454 /* Frameworks */,
+				3D4A1B262C8F1A2B00123454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SustainaBuddy;
+			productName = SustainaBuddy;
+			productReference = 3D4A1B282C8F1A2B00123455 /* SustainaBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D4A1B202C8F1A2B00123453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3D4A1B272C8F1A2B00123454 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3D4A1B232C8F1A2B00123453 /* Build configuration list for PBXProject "SustainaBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D4A1B1F2C8F1A2B00123453;
+			productRefGroup = 3D4A1B292C8F1A2B00123455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D4A1B272C8F1A2B00123454 /* SustainaBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D4A1B262C8F1A2B00123454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4A1B302C8F1A2B00123458 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D4A1B242C8F1A2B00123453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4A1B2E2C8F1A2B00123457 /* ContentView.swift in Sources */,
+				3D4A1B2C2C8F1A2B00123456 /* SustainaBuddyApp.swift in Sources */,
+				3D4A1B322C8F1A2B00123459 /* MarineTrackerView.swift in Sources */,
+				3D4A1B342C8F1A2B0012345A /* MarineAnimal.swift in Sources */,
+				3D4A1B362C8F1A2B0012345B /* AnimalProfileView.swift in Sources */,
+				3D4A1B382C8F1A2B0012345C /* SustainaBuddyView.swift in Sources */,
+				3D4A1B582C8F1A2B00123477 /* FeedingView.swift in Sources */,
+				3D4A1B592C8F1A2B00123478 /* CustomizationView.swift in Sources */,
+				3D4A1B3A2C8F1A2B0012345D /* SpeciesSelectorView.swift in Sources */,
+				3D4A1B3C2C8F1A2B0012345E /* EcoFootprintView.swift in Sources */,
+				3D4A1B3E2C8F1A2B0012345F /* EcoActivity.swift in Sources */,
+				3D4A1B402C8F1A2B00123460 /* EcoDiningView.swift in Sources */,
+				3D4A1B422C8F1A2B00123461 /* Restaurant.swift in Sources */,
+				3D4A1B442C8F1A2B00123462 /* ActivityLogView.swift in Sources */,
+				3D4A1B462C8F1A2B00123467 /* LocationManager.swift in Sources */,
+				3D4A1B482C8F1A2B00123468 /* CreditsView.swift in Sources */,
+				3D4A1B4A2C8F1A2B00123470 /* SocialView.swift in Sources */,
+				3D4A1B4C2C8F1A2B00123471 /* SocialViewModel.swift in Sources */,
+				3D4A1B4E2C8F1A2B00123472 /* AddFriendView.swift in Sources */,
+				3D4A1B502C8F1A2B00123473 /* ChallengeDetailView.swift in Sources */,
+				3D4A1B522C8F1A2B00123474 /* AchievementView.swift in Sources */,
+				3D4A1B542C8F1A2B00123475 /* AchievementViewModel.swift in Sources */,
+				3D4A1B562C8F1A2B00123476 /* StatCard.swift in Sources */,
+				3D4A1B5A2C8F1A2B00123479 /* NotificationManager.swift in Sources */,
+				3D4A1B5C2C8F1A2B0012347A /* NotificationSettingsView.swift in Sources */,
+				A1B2C3D42C8F1A2B00123481 /* AppleAuthManager.swift in Sources */,
+				A1B2C3D62C8F1A2B00123482 /* SignInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D4A1B342C8F1A2B00123464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASYNC_COMPILATION_ENABLED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D4A1B352C8F1A2B00123465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASYNC_COMPILATION_ENABLED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D4A1B372C8F1A2B00123466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SustainaBuddy/SustainaBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SustainaBuddy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SustainaBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sustainabuddy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D4A1B382C8F1A2B00123467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SustainaBuddy/SustainaBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SustainaBuddy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SustainaBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sustainabuddy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D4A1B232C8F1A2B00123453 /* Build configuration list for PBXProject "SustainaBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4A1B342C8F1A2B00123464 /* Debug */,
+				3D4A1B352C8F1A2B00123465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4A1B362C8F1A2B00123466 /* Build configuration list for PBXNativeTarget "SustainaBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4A1B372C8F1A2B00123466 /* Debug */,
+				3D4A1B382C8F1A2B00123467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D4A1B202C8F1A2B00123453 /* Project object */;
+}

@@ -1,0 +1,31 @@
+.DS_Store
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+
+# Logs and temp
+*.log
+.trae/
+.trae-aicc/
+.vscode/
+.idea/
+
+# App bundles
+*.app
+
+# Simulator/device data (do not commit runtime artifacts)
+**/ModuleCache.noindex/
+**/Index.noindex/
+**/CompilationCache.noindex/
+**/SDKStatCaches.noindex/
